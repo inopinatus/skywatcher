@@ -1,7 +1,7 @@
 require 'eorzea_time'
 
 # https://github.com/Rogueadyn/SaintCoinach/blob/f969b441584688c02dde2fadac548c4a5aaa3faa/SaintCoinach/Xiv/WeatherRate.cs
-module EorzeaWeather
+module Skywatcher
   class Calculator
     def initialize(zone, time)
       @zone = zone

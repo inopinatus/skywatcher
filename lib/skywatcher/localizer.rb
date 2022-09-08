@@ -1,7 +1,7 @@
-require 'eorzea_weather/locale'
-require 'eorzea_weather/data/locales'
+require 'skywatcher/locale'
+require 'skywatcher/data/locales'
 
-module EorzeaWeather
+module Skywatcher
   class Localizer
     def initialize(kind, id)
       @kind = kind

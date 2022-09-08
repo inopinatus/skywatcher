@@ -1,16 +1,16 @@
 
 lib = File.expand_path("../lib", __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require "eorzea_weather/version"
+require "skywatcher/version"
 
 Gem::Specification.new do |spec|
-  spec.name          = "eorzea_weather"
-  spec.version       = EorzeaWeather::VERSION
+  spec.name          = "skywatcher"
+  spec.version       = Skywatcher::VERSION
   spec.authors       = ["Sorah Fukumori"]
   spec.email         = ["her@sorah.jp"]
 
-  spec.summary       = %q{Eorzean Weather Forecast}
-  spec.homepage      = "https://github.com/sorah/eorzea_weather"
+  spec.summary       = %q{Final Fantasy XIV weather forecast}
+  spec.homepage      = "https://github.com/inopinatus/skywatcher"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0").reject do |f|

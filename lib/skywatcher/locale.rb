@@ -1,4 +1,4 @@
-module EorzeaWeather
+module Skywatcher
   Locale = Struct.new(:id, :weather, :zone) do
     def inspect
       "#<#{self.class}: #{id}>"

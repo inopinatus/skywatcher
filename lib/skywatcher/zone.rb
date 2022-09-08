@@ -1,4 +1,4 @@
-module EorzeaWeather
+module Skywatcher
   Zone = Struct.new(:id, :rates) do
     def find_rate(rate)
       rates.find { |(threshold, _weather)| threshold.nil? || rate < threshold }[1]

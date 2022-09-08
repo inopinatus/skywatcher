@@ -1,4 +1,4 @@
-module EorzeaWeather
+module Skywatcher
   module Data
     module Zones
       AzysLla = Zone.new(:azys_lla, [

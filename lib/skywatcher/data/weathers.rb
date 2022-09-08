@@ -1,4 +1,4 @@
-module EorzeaWeather
+module Skywatcher
   module Data
     module Weathers
       LIST = %i(

@@ -1,13 +1,13 @@
-require 'eorzea_weather/version'
-require 'eorzea_weather/locale'
-require 'eorzea_weather/zone'
-require 'eorzea_weather/data/weathers'
-require 'eorzea_weather/data/zones'
-require 'eorzea_weather/data/locales'
-require 'eorzea_weather/calculator'
-require 'eorzea_weather/localizer'
+require 'skywatcher/version'
+require 'skywatcher/locale'
+require 'skywatcher/zone'
+require 'skywatcher/data/weathers'
+require 'skywatcher/data/zones'
+require 'skywatcher/data/locales'
+require 'skywatcher/calculator'
+require 'skywatcher/localizer'
 
-module EorzeaWeather
+module Skywatcher
   def self.zones
     Data::Zones::MAP
   end

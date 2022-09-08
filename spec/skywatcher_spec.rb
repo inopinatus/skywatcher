@@ -1,6 +1,6 @@
-RSpec.describe EorzeaWeather do
+RSpec.describe Skywatcher do
   it "has a version number" do
-    expect(EorzeaWeather::VERSION).not_to be nil
+    expect(Skywatcher::VERSION).not_to be nil
   end
 
   it "does something useful" do

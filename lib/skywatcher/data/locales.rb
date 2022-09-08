@@ -1,6 +1,6 @@
-require 'eorzea_weather/locale'
+require 'skywatcher/locale'
 
-module EorzeaWeather
+module Skywatcher
   module Data
     module Locales
       En = Locale.new(:en,
