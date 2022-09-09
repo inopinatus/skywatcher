@@ -4,19 +4,7 @@ A fork of the `eorzea_weather` gem.
 
 ## Installation
 
-Add this line to your application's Gemfile:
-
-```ruby
-gem 'skywatcher'
-```
-
-And then execute:
-
-    $ bundle
-
-Or install it yourself as:
-
-    $ gem install skywatcher
+Not currently published as a rubygem. May be vendored from this repository.
 
 ## Usage
 
