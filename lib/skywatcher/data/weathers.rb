@@ -2,6 +2,7 @@ module Skywatcher
   module Data
     module Weathers
       LIST = %i(
+        astromagnetic_storm
         blizzards
         clear_skies
         clouds
@@ -11,6 +12,7 @@ module Skywatcher
         gales
         gloom
         heat_waves
+        moon_dust
         rain
         showers
         snow

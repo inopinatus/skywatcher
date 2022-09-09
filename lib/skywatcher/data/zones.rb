@@ -78,6 +78,12 @@ module Skywatcher
         [85, :clear_skies],
         [nil, :fair_skies],
       ])
+      Elpis = Zone.new(:elpis, [
+        [25, :clouds],
+        [40, :umbral_wind],
+        [85, :fair_skies],
+        [nil, :clear_skies],
+      ])
       Eulmore = Zone.new(:eulmore, [
         [10, :gales],
         [20, :rain],
@@ -115,6 +121,15 @@ module Skywatcher
         [82, :umbral_wind],
         [nil, :snow],
       ])
+      Garlemald = Zone.new(:garlemald, [
+        [45, :snow],
+        [50, :thunder],
+        [55, :rain],
+        [60, :fog],
+        [85, :clouds],
+        [95, :fair_skies],
+        [nil, :clear_skies],
+      ])
       Gridania = Zone.new(:gridania, [
         [20, :rain],
         [30, :fog],
@@ -146,6 +161,14 @@ module Skywatcher
         [90, :clouds],
         [nil, :fog],
       ])
+      IslandSanctuary = Zone.new(:island_sanctuary, [
+        [25, :clear_skies],
+        [70, :fair_skies],
+        [80, :clouds],
+        [90, :rain],
+        [95, :fog],
+        [nil, :showers],
+      ])
       Kholusia = Zone.new(:kholusia, [
         [10, :gales],
         [20, :rain],
@@ -160,6 +183,12 @@ module Skywatcher
         [40, :clouds],
         [80, :fair_skies],
         [nil, :clear_skies],
+      ])
+      Labyrinthos = Zone.new(:labyrinthos, [
+        [15, :clear_skies],
+        [60, :fair_skies],
+        [85, :clouds],
+        [nil, :rain],
       ])
       Lakeland = Zone.new(:lakeland, [
         [20, :clear_skies],
@@ -183,6 +212,11 @@ module Skywatcher
         [80, :wind],
         [90, :fog],
         [nil, :rain],
+      ])
+      MareLamentorum = Zone.new(:mare_lamentorum, [
+        [15, :umbral_wind],
+        [30, :moon_dust],
+        [nil, :fair_skies],
       ])
       MiddleLaNoscea = Zone.new(:middle_la_noscea, [
         [20, :clouds],
@@ -221,12 +255,26 @@ module Skywatcher
         [70, :fair_skies],
         [nil, :clear_skies],
       ])
+      OldSharlayan = Zone.new(:old_sharlayan, [
+        [10, :clear_skies],
+        [50, :fair_skies],
+        [70, :clouds],
+        [85, :fog],
+        [nil, :snow],
+      ])
       OuterLaNoscea = Zone.new(:outer_la_noscea, [
         [30, :clear_skies],
         [50, :fair_skies],
         [70, :clouds],
         [85, :fog],
         [nil, :rain],
+      ])
+      RadzAtHan = Zone.new(:radz_at_han, [
+        [10, :fog],
+        [25, :rain],
+        [40, :clear_skies],
+        [80, :fair_skies],
+        [nil, :clouds],
       ])
       RhalgrsReach = Zone.new(:rhalgrs_reach, [
         [15, :clear_skies],
@@ -257,6 +305,14 @@ module Skywatcher
         [40, :clouds],
         [70, :fair_skies],
         [nil, :clear_skies],
+      ])
+      Thavnair = Zone.new(:thavnair, [
+        [10, :fog],
+        [20, :rain],
+        [25, :showers],
+        [40, :clear_skies],
+        [80, :fair_skies],
+        [nil, :clouds],
       ])
       TheAzimSteppe = Zone.new(:the_azim_steppe, [
         [5, :gales],
@@ -376,6 +432,11 @@ module Skywatcher
         [85, :clouds],
         [95, :fog],
         [nil, :rain],
+      ])
+      UltimaThule = Zone.new(:ultima_thule, [
+        [15, :astromagnetic_storm],
+        [85, :fair_skies],
+        [nil, :umbral_wind],
       ])
       UpperLaNoscea = Zone.new(:upper_la_noscea, [
         [30, :clear_skies],
