@@ -5,6 +5,8 @@ require "skywatcher"
 require "sightseeing"
 require "set"
 
+eflag = !!ARGV.delete("-e")
+
 itinerary = 
   if ARGV.any?
     ids = ARGV.flat_map do |arg|
@@ -22,7 +24,7 @@ itinerary.group_by(&:zone).each do |zone, vistas|
   remaining = Set.new(vistas)
 
   while remaining.any?
-    vistas.each do |vista|
+    (eflag ? vistas : remaining).each do |vista|
       hours = vista.matching_hours(fc)
       if hours.any?
         start_time = EorzeaTime.new(hours.min * 3600).next_occurrence(time: fc.start_time)
