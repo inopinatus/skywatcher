@@ -55,14 +55,14 @@ puts "%-3s %-26s %-11s %-13s %-10s %-26s %s" % [
 
 et = EorzeaTime.now
 puts "Now %-26s %.2d:%.2d" % [
-  Time.now.localtime.strftime("%b %m %T"),
+  Time.now.localtime.strftime("%b %d %T"),
   et.hour,
   et.min
 ]
 
 windows.each do |window|
   vista, fc, hours, start_time, end_time = *window
-  local_start_time = start_time.localtime.strftime("%b %m %T")
+  local_start_time = start_time.localtime.strftime("%b %d %T")
   local_end_time = end_time.localtime.strftime("%T")
   zone_name = Skywatcher::Localizer.new(:zone, vista.zone)[:en]
   weather_name = Skywatcher::Localizer.new(:weather, fc.weather)[:en]
