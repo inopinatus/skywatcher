@@ -35,7 +35,7 @@ itinerary.group_by(&:zone).each do |zone, vistas|
     (eflag ? vistas : remaining).each do |vista|
       hours = vista.matching_hours(fc)
       if hours.any?
-        start_time = EorzeaTime.new(hours.min * 3600).next_occurrence(time: fc.start_time)
+        start_time = EorzeaTime.new(hours.min * 3600).next_occurrence(time: fc.start_time-1)
         end_time = EorzeaTime.new((hours.max+1) * 3600).next_occurrence(time: start_time)
 
         if end_time > now_st
